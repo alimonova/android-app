@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/activity_main"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="15dp">
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/toolbar_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:layout_margin="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
 
     <Spinner
         android:id="@+id/spinner_from"
@@ -17,6 +29,7 @@
         android:id="@+id/image_button"
         android:src="@drawable/icon"
         android:layout_height="50dp"
+        android:background="@color/colorWhite"
         android:layout_width="50dp"
         android:scaleType="fitXY"/>
 
@@ -50,7 +63,8 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/edit_text"
-        android:layout_marginTop="30dp"/>
+        android:layout_marginTop="30dp"
+        android:onClick="convertValue"/>
 
     <TextView android:text="Результат:"
         android:id="@+id/result_text"
@@ -70,3 +84,4 @@
         android:layout_centerHorizontal="true"/>
 
 </RelativeLayout>
+</LinearLayout>

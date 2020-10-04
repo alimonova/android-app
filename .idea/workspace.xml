@@ -7,27 +7,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4df94a67-b8a9-406a-bb48-b7d4fe8ff368" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lab1/DocumentationActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_documentation.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lab1/DisplayMessageActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lab1/ConvertActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lab1/ConvertActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lab1/ConvertActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lab1/DocumentationActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lab1/DocumentationActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lab1/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lab1/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_display_message.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_convertation.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_convertation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_convertation.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_documentation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_documentation.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,8 +46,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="layoutResourceFile" />
         <option value="Class" />
+        <option value="resourceFile" />
+        <option value="layoutResourceFile" />
       </list>
     </option>
   </component>
@@ -150,14 +147,26 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="584" y="198" key="#Notifications" timestamp="1601845046486">
+      <screen x="64" y="0" width="1856" height="1080" />
+    </state>
+    <state x="584" y="198" key="#Notifications/64.0.1856.1080@64.0.1856.1080" timestamp="1601845046486" />
     <state x="722" y="287" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1601832532516">
       <screen x="64" y="0" width="1856" height="1080" />
     </state>
     <state x="722" y="287" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/64.0.1856.1080@64.0.1856.1080" timestamp="1601832532516" />
-    <state x="572" y="295" key="AndroidCreateResourceFileDialog" timestamp="1601827532475">
+    <state x="572" y="295" key="AndroidCreateResourceFileDialog" timestamp="1601847539280">
       <screen x="64" y="0" width="1856" height="1080" />
     </state>
-    <state x="572" y="295" key="AndroidCreateResourceFileDialog/64.0.1856.1080@64.0.1856.1080" timestamp="1601827532475" />
+    <state x="572" y="295" key="AndroidCreateResourceFileDialog/64.0.1856.1080@64.0.1856.1080" timestamp="1601847539280" />
+    <state x="156" y="92" width="1672" height="896" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1601845644486">
+      <screen x="64" y="0" width="1856" height="1080" />
+    </state>
+    <state x="156" y="92" width="1672" height="896" key="com.android.tools.idea.avdmanager.AvdListDialog/64.0.1856.1080@64.0.1856.1080" timestamp="1601845644486" />
+    <state x="689" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1601845460427">
+      <screen x="64" y="0" width="1856" height="1080" />
+    </state>
+    <state x="689" y="364" key="com.intellij.ide.util.TipDialog/64.0.1856.1080@64.0.1856.1080" timestamp="1601845460427" />
     <state x="648" y="250" key="run.anything.popup" timestamp="1601832228642">
       <screen x="64" y="0" width="1856" height="1080" />
     </state>
