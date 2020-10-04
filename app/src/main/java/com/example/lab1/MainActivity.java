@@ -4,9 +4,6 @@ import android.content.Intent;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.EditText;
-
-import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -17,11 +14,18 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void sendMessage(View view) {
-        Intent intent = new Intent(this, DisplayMessageActivity.class);
-        EditText editText = (EditText)findViewById(R.id.edit_message);
-        String message = editText.getText().toString();
-        intent.putExtra(EXTRA_MESSAGE, message);
+    public void convert(View view) {
+        Intent intent = new Intent(this, ConvertActivity.class);
+        startActivity(intent);
+    }
+
+    public void documentation(View view) {
+        Intent intent = new Intent(this, DocumentationActivity.class);
+        startActivity(intent);
+    }
+
+    public void exit(View view) {
+        Intent intent = new Intent(this, ConvertActivity.class);
         startActivity(intent);
     }
 }

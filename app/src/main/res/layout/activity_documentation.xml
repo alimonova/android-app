@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:fillViewport="true">
+<androidx.constraintlayout.widget.ConstraintLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DocumentationActivity"
+    android:layout_marginHorizontal="45dp"
+    android:layout_marginTop="20dp">
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Конвертация времени"
+        app:layout_constraintBottom_toTopOf="@id/imageView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:textSize="30sp"/>
+    <ImageView
+        android:text="TextView"
+        android:src="@drawable/img"
+        android:layout_width="fill_parent"
+        android:layout_height="300dp"
+        android:id="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@id/text_view"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:textSize="20sp"
+        android:id="@+id/textView"
+        android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry ... remaining essentially unchanged"
+
+        app:layout_constraintLeft_toRightOf="@+id/imageView"
+        android:layout_marginLeft="16dp"
+
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        android:layout_marginTop="16dp"
+
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="16dp"
+
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        android:layout_marginBottom="16dp" />
+
+  <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/imageView"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:text="Данное приложение является конвертером времени (наносекунда, микросекунда, секунда, минута, час, сутки, неделя, год).
+Для конвертации времени необходимо ввести значение и выбрать способ конвертации, после чего нажать на кнопку Конвертировать.
+
+Теоретический материал:
+Наносекунда (нс) — единица времени, равная одной миллиардной доле секунды (10−9 или 1/1.000.000.000 с). Одна наносекунда соотносится с одной секундой как одна секунда соотносится с 31,7 года.
+Микросекунда (мкс) — единица времени, равная одной миллионной доле секунды (10−6 или 1/1 000 000 с). Одна микросекунда соотносится с одной секундой как одна секунда соотносится с 11,574 сутками.
+Секунда — единица измерения времени, одна из основных единиц Международной системы единиц (СИ) и системы СГС.
+Минута — внесистемная единица измерения времени. По современному определению, минута равна 60 секундам (1/60 часа или 1/1440 суток).
+Час — внесистемная единица измерения времени. По современному определению час в точности равен 3600 секундам, что соответствует 60 минутам или 1/24 суток,
+Сутки — единица измерения времени, приблизительно равная периоду обращения Земли вокруг своей оси.
+Неделя — период времени в семь суток. В русском языке о семидневном устройстве недели напоминает церковнославянское слово седми́ца.
+Год — внесистемная единица измерения времени, которая исторически в большинстве культур означала однократный цикл смены сезонов (весна, лето, осень, зима)."/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

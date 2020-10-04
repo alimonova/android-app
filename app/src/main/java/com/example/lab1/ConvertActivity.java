@@ -7,22 +7,33 @@ import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.view.Gravity;
 import android.view.View;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ScrollView;
+import android.widget.Spinner;
 import android.widget.TextView;
 
-public class DisplayMessageActivity extends AppCompatActivity {
+public class ConvertActivity extends AppCompatActivity {
 
     TextView textView;
     ImageView iv;
     int counter;
-
+    String[] measures = {"наносекунда", "микросекунда", "секунда", "минута", "час", "сутки", "неделя", "год"};
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         Intent intent = getIntent();
+        setContentView(R.layout.activity_convertation);
+        Spinner spinner_from = (Spinner) findViewById(R.id.spinner_from);
+        Spinner spinner_to = (Spinner) findViewById(R.id.spinner_to);
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, measures);
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        spinner_from.setAdapter(adapter);
+        spinner_to.setAdapter(adapter);
+
+/*
         String message = "Привет, " + intent.getStringExtra(MainActivity.EXTRA_MESSAGE) + "!\nХочешь мем?";
 
         ScrollView sv = new ScrollView(this);
@@ -72,7 +83,7 @@ public class DisplayMessageActivity extends AppCompatActivity {
         ll.addView(ll2);
         ll.addView(iv);
         sv.addView(ll);
-        setContentView(sv);
+        setContentView(sv);*/
 
     }
 }
